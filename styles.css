@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');    /* Importerar fonts som jag väljer så att andras webbläsare kan hämta dem om de saknas i deras browser. */
+
+* {                                                               /* Sätter hela sidan till border-box för att undvika att den visas tokigt. */
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Ubuntu', 'sans-serif';                          /* Väljer fonts för allt som visas i body, hämtas från google vid behov enligt länken ovan. */
+    display: flex;                                                /* The element behaves like a block element and lays out its content according to the flexbox model. https://developer.mozilla.org/en-US/docs/Web/CSS/display */
+    flex-direction: column;                                       /* The flex container's main-axis is the same as the block-axis. The main-start and main-end points are the same as the before and after points of the writing-mode. https://developer.mozilla.org/en-US/docs/Web/CSS/flex-direction */
+align-items: center;                                            /**/
+    justify-content: center;
+    hight: 100vh;
+    overflow: hidden;
+    margin: 0;
+}
