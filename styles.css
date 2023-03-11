@@ -12,7 +12,7 @@ body {
     justify-content: center;                                    /* The CSS justify-content property defines how the browser distributes space between and around content items along the main-axis of a flex container, and the inline axis of a grid container. https://developer.mozilla.org/en-US/docs/Web/CSS/justify-content */
     height: 100vh;                                              /* A height of 100vh corresponds to the maximum possible viewport height. https://developer.mozilla.org/en-US/docs/Web/CSS/height */
     overflow: hidden;                                           /* The CSS Overflow module contains the features of CSS relating to scrollable overflow handling in visual media. In CSS overflow happens when the content of a box extends past one or more of the box's edges. https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Overflow */
-    margin: 0;                                                  /* Sets margin top, left, bottom and right to 0. https://developer.mozilla.org/en-US/docs/Web/CSS/margin */
+    margin: 0;                                                  /* Sets margin top, left, bottom and right to 0 for the percentage-field. https://developer.mozilla.org/en-US/docs/Web/CSS/margin */
 }
 
 .bg {
